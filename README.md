@@ -17,13 +17,6 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 
 > **This calculator provides a simplified dosage estimate. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider before making any medication decisions.**
 
----
-
-## 🖥️ Demo
-
-![App Screenshot](screenshot.png)
-
-> Add a screenshot of your app and save it as `screenshot.png` in the root of your project folder.
 
 ---
 
@@ -39,10 +32,10 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/my-warfarin-app.git
+git clone https://github.com/Peyman7/warfain-calculator-app.git
 
 # Go into the project folder
-cd my-warfarin-app
+cd warfarin-calculator-app
 
 # Install dependencies
 npm install
@@ -56,7 +49,7 @@ npm start
 ## 📁 Folder Structure
 
 ```
-my-warfarin-app/
+warfain-calculator-app/
 ├── public/
 ├── src/
 │   ├── App.js
@@ -68,21 +61,3 @@ my-warfarin-app/
 
 ---
 
-## ✅ Future Improvements
-
-- Add support for saving dosage history
-- Integrate with Apple HealthKit or Google Fit (optional)
-- Support dosage scheduling reminders
-- Add dark mode toggle
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Questions or Feedback?
-
-Feel free to open an [issue](https://github.com/your-username/my-warfarin-app/issues) or contact me directly.
