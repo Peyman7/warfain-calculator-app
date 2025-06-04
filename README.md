@@ -58,5 +58,4 @@ warfain-calculator-app/
 └── .gitignore
 ```
 
----
 
