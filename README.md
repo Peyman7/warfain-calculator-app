@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# 💊 Warfarin Dosage Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React app that helps users estimate adjustments to their weekly Warfarin dosage based on their current INR result. This tool is for **informational purposes only** and not intended as a replacement for professional medical advice.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- Input current **INR level** and **current weekly dosage**
+- Auto-calculates a suggested new dosage based on INR range
+- Responsive design using React and modern styling
+- Includes a **clear disclaimer** for safe use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚠️ Disclaimer
 
-### `npm test`
+> **This calculator provides a simplified dosage estimate. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider before making any medication decisions.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🖥️ Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](screenshot.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> Add a screenshot of your app and save it as `screenshot.png` in the root of your project folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React (JavaScript)
+- CSS (TailwindCSS or Bootstrap if used)
+- Node.js / npm
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📦 Installation & Running Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Clone the repository
+git clone https://github.com/your-username/my-warfarin-app.git
 
-## Learn More
+# Go into the project folder
+cd my-warfarin-app
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Install dependencies
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start the app
+npm start
+```
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📁 Folder Structure
 
-### Analyzing the Bundle Size
+```
+my-warfarin-app/
+├── public/
+├── src/
+│   ├── App.js
+│   └── ...
+├── package.json
+├── README.md
+└── .gitignore
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## ✅ Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Add support for saving dosage history
+- Integrate with Apple HealthKit or Google Fit (optional)
+- Support dosage scheduling reminders
+- Add dark mode toggle
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📄 License
 
-### Deployment
+This project is open-source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🙋‍♂️ Questions or Feedback?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to open an [issue](https://github.com/your-username/my-warfarin-app/issues) or contact me directly.
