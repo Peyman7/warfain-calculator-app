@@ -7,9 +7,8 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 ## 🚀 Features
 
 - Input current **INR level** and **current weekly dosage**
-- Auto-calculates a suggested new dosage based on INR range
-- Responsive design using React and modern styling
-- Includes a **clear disclaimer** for safe use
+- Auto-calculates a suggested new dosage based on INR range (default range is between 2 and 3)
+- Responsive design using React
 
 ---
 
