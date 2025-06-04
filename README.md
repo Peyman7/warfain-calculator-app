@@ -4,7 +4,7 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 
 ---
 
-## 🚀 Features
+## Features
 
 - Input current **INR level** and **current weekly dosage**
 - Auto-calculates a suggested new dosage based on INR range (default range is between 2 and 3)
@@ -12,14 +12,14 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ IMPORTANT Disclaimer
 
 > **This calculator provides a simplified dosage estimate. It is NOT a substitute for professional medical advice, diagnosis, or treatment. Always consult your healthcare provider before making any medication decisions.**
 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - React (JavaScript)
 - CSS (TailwindCSS or Bootstrap if used)
@@ -27,7 +27,7 @@ A simple React app that helps users estimate adjustments to their weekly Warfari
 
 ---
 
-## 📦 Installation & Running Locally
+## Installation & Running Locally
 
 ```bash
 # Clone the repository
@@ -45,7 +45,7 @@ npm start
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 warfain-calculator-app/
